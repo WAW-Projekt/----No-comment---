@@ -1,27 +1,83 @@
- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-            "http://www.w3.org/TR/html4/strict.dtd">
-	<html>
-		
-	      <head>
-	      	<title>1231125</title>
-	      </head>
-	      
-			
-	      
-	      
-	      <body>
-	      <p> <i>Ohne einen</i> Computer bedienen zu koennen, <b>wird man in der neuen</b> Informationsgesellschaft</p>
-	      <p> dastehen wie ein zufaelliger <b>Besucher</b>. </p>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+"http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
 
-	      <p>John Naisbitt (*1930), amerik. Prognostiker</p>
-	     
-	     <h1>&lt;!--No comment--&gt;</h1>
-	     
-	     
-	      <ol>
-	      <li>  <b> 1121216  Vahdet Genc 07.06.1991 </b> </li>
-	      <li> <b> 1231125  Lukas  Brandel 10.01.1994</b> </li>
-	      <li> <i> 1227895  Ana Sikiric 04.01.1992 </i> </li>
-	      </ol>
-	    </body>
-	</html>
+<head>
+    <link rel="stylesheet" href="waw.css" type="text/css"/>
+    <title>Formular</title>
+   
+</head>
+
+<body>
+    <div id="Webseite">
+        <div id="Formular">
+            <form action="http://martinakraus.net/hsmannheim.php" method="GET">
+                <h1>Anmeldung</h1>
+                <h2>Hier könnt ihr euch für eine Messe eurer Wahl anmelden</h2>
+                <br/>
+                <br/>
+                <br/>
+                <table>
+                    <tr>
+                        <td><label for="Name">Name:</label></td>
+                        <td width="360px"><input type="text" name="name" size="30" maxlength="30" placeholder="Bitte Name eingeben"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Vorname">Vorname:</label></td>
+                        <td width="360px"><input type="text" name="vorname" size="30" maxlength="30" placeholder="Bitte Vorname eingeben"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Matrikelnummer">Matrikelnummer:</label></td>
+                        <td width="360px"><input type="text" name="matrikelnr" size="30" maxlength="30" placeholder="Bitte Matrikelnummer eingeben"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="E-mail Adresse ">E-Mail Adresse:</label></td>
+                        <td width="360px"><input type="text" name="email" size="30" maxlength="30" value="m.kraus@hs-mannheim.de"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Handynummer">Handynummer:</label></td>
+                        <td width="360px"><input type="text" name="handy" size="30" maxlength="30" placeholder="Bitte Handynummer eingeben"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Studiengang">Studiengang:</label></td>
+                        <td width="360px">
+                            <select size="1" name="studiengang">
+                            <option value="IB" selected="selected">IB</option>
+                            <option value="IMB">IMB</option>
+                            <option value="UIB">UIB</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Messe">Messe:</label></td>
+                        <td width="360px">
+                            <input type="radio" name="messe" value="CebIT" checked="checked"/>CeBIT<br/>
+                            <input type="radio" name="messe" value="ConIT"/>ConHIT<br/>                              
+                            <input type="radio" name="messe" value="WebTech Con"/>WebTech Con<br/>
+                            <br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Anmelden" style="width: 130px; height: 25px"/></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        
+        <div id="Box">
+            <p>Gruppenname: <br/> <-- No comment --></p>
+        </div>
+        
+        <div id="Messeinfo">
+            
+            <h1 style="font-size: 14px">Messeinfos</h1>
+            <p style="font-size: 12px">Bitte auf eine Messe eurer Wahl klicken um weitere Infos zu bekommen</p><br/>
+            <a href="Cebit.html" style="font-size: 16px">CeBIT</a><br/><br/>
+            <a href="Conhit.html" style="font-size: 16px">ConHIT</a><br/><br/>
+            <a href="WebTechCon.html" style="font-size: 16px">WebTech Con</a><br/>
+        </div>
+        
+    </div>
+</body>
+
+</html>
