@@ -15,16 +15,16 @@ table{
 }
 
 #Webseite{
-          margin-left: 10em;
-          margin-right: 10em;            
+            margin-left: 10em;
+            margin-right: 10em;            
 }
 
 #Formular{
             float: left;
-            margin-top: auto;
-            margin-bottom: auto;
-            margin-left: auto;
-            margin-right: auto;
+
+}
+#messe{
+           padding:0px;
 }
 #Box{
             float: right;
