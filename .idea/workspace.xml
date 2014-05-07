@@ -8,6 +8,11 @@
     <file path="/Webtechcon.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399477607410" ignored="false" />
     <file path="/Cebit.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399477565498" ignored="false" />
     <file path="/Conhit.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399477641516" ignored="false" />
+    <file path="/index.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399478949712" ignored="false" />
+    <file path="/conHit.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399479413865" ignored="false" />
+    <file path="/ceBit.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399479328962" ignored="false" />
+    <file path="/webtechcon.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399479783896" ignored="false" />
+    <file path="/messe.css" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399479719666" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,37 +32,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Cebit.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html-Seiten/Cebit.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="22" selection-start="1008" selection-end="1008" vertical-scroll-proportion="-19.038462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html-Seiten/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="71" selection-start="191" selection-end="191" vertical-scroll-proportion="-3.2692308">
+            <state line="42" column="39" selection-start="2083" selection-end="2083" vertical-scroll-proportion="-27.461538">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Webtechcon.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html-Seiten/Webtechcon.html">
+      <file leaf-file-name="messe.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html-Seiten/css/messe.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="22" selection-start="1655" selection-end="1655" vertical-scroll-proportion="0.8947368">
+            <state line="27" column="18" selection-start="414" selection-end="414" vertical-scroll-proportion="0.6642547">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conhit.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html-Seiten/Conhit.html">
+      <file leaf-file-name="conHit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html-Seiten/conHit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="22" selection-start="1691" selection-end="1691" vertical-scroll-proportion="-19.615385">
+            <state line="38" column="23" selection-start="1683" selection-end="1683" vertical-scroll-proportion="-20.346153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webtechcon.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html-Seiten/webtechcon.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="56" selection-start="1709" selection-end="1709" vertical-scroll-proportion="-22.307692">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ceBit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html-Seiten/ceBit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="36" selection-start="228" selection-end="228" vertical-scroll-proportion="-2.0384614">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="waw.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html-Seiten/css/waw.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,10 +113,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/html-Seiten/index.html" />
         <option value="$PROJECT_DIR$/html-Seiten/Cebit.html" />
         <option value="$PROJECT_DIR$/html-Seiten/Conhit.html" />
         <option value="$PROJECT_DIR$/html-Seiten/Webtechcon.html" />
+        <option value="$PROJECT_DIR$/html-Seiten/index.html" />
+        <option value="$PROJECT_DIR$/html-Seiten/ceBit.html" />
+        <option value="$PROJECT_DIR$/html-Seiten/conHit.html" />
+        <option value="$PROJECT_DIR$/html-Seiten/webtechcon.html" />
+        <option value="$PROJECT_DIR$/html-Seiten/css/messe.css" />
       </list>
     </option>
   </component>
@@ -165,7 +192,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Css-Datein" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,28 +316,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html-Seiten/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="71" selection-start="191" selection-end="191" vertical-scroll-proportion="-3.2692308">
+        <state line="42" column="39" selection-start="2083" selection-end="2083" vertical-scroll-proportion="-27.461538">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html-Seiten/Cebit.html">
+    <entry file="file://$PROJECT_DIR$/html-Seiten/ceBit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="22" selection-start="1008" selection-end="1008" vertical-scroll-proportion="-19.038462">
+        <state line="6" column="36" selection-start="228" selection-end="228" vertical-scroll-proportion="-2.0384614">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html-Seiten/Conhit.html">
+    <entry file="file://$PROJECT_DIR$/html-Seiten/conHit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="22" selection-start="1691" selection-end="1691" vertical-scroll-proportion="-19.615385">
+        <state line="38" column="23" selection-start="1683" selection-end="1683" vertical-scroll-proportion="-20.346153">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html-Seiten/Webtechcon.html">
+    <entry file="file://$PROJECT_DIR$/html-Seiten/webtechcon.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="22" selection-start="1655" selection-end="1655" vertical-scroll-proportion="0.8947368">
+        <state line="39" column="56" selection-start="1709" selection-end="1709" vertical-scroll-proportion="-22.307692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/css/waw.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/css/messe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="18" selection-start="414" selection-end="414" vertical-scroll-proportion="0.6642547">
           <folding />
         </state>
       </provider>
