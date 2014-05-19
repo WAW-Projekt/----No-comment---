@@ -7,6 +7,13 @@ h1{
     font-size: 22px;
     text-align: center;
 }
+table{
+    text-align:center;
+    width:60%;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
 
 #Webseite{
     margin-left: 12em;
