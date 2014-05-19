@@ -3,6 +3,9 @@
 <html>
 
 <head>
+    <script type=text/javascript src="datesForContributors.js"></script>
+    <script type=text/javascript src="datesForFairs.js"></script>
+    <script type=text/javascript src="tabGenerator.js"></script>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="css\messe.css" type="text/css"/>
     <title>detail</title>
@@ -10,16 +13,22 @@
 <body>
     <h1>Details zur Anmeldung</h1>
     <div id="1" align="center">
-    <table border="1">
+    <table id="mainTable" border="1">
         <tr>
-            <th onmouseover="style.backgroundColor='red'" onmouseout="style.backgroundColor='#99D9EA'">Kosten der Messe</th>
-            <th onmouseover="style.backgroundColor='red'" onmouseout="style.backgroundColor='#99D9EA'">Teilnehmer</th>
+            <th onclick="javascript:createTab()" onmouseover="style.backgroundColor='red'" onmouseout="style.backgroundColor='#99D9EA'">Kosten der Messe</th>
+            <th onclick="javascript:extendTab()" onmouseover="style.backgroundColor='red'" onmouseout="style.backgroundColor='#99D9EA'">Teilnehmer</th>
 
         </tr>
     </table><br/>
     </div>
-    
-    
+
+    <div>
+        <table align=center id="table">
+
+        </table>
+
+    </div>
+
     
     
     
