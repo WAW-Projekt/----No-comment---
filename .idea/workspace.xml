@@ -4,15 +4,18 @@
     <list default="true" id="c529ac64-1f27-4b8a-889b-9abc94e731bf" name="Default" comment="" />
     <ignored path="----No-comment---.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399476745775" ignored="false" />
+    <file path="/Dummy.txt" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400496520499" ignored="false" />
     <file path="/Webtechcon.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399477607410" ignored="false" />
     <file path="/Cebit.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399477565498" ignored="false" />
-    <file path="/Conhit.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399477641516" ignored="false" />
+    <file path="/Conhit.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400499030447" ignored="false" />
     <file path="/index.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399478949712" ignored="false" />
     <file path="/conHit.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399479413865" ignored="false" />
     <file path="/ceBit.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399479328962" ignored="false" />
     <file path="/webtechcon.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399479783896" ignored="false" />
     <file path="/messe.css" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399479719666" ignored="false" />
+    <file path="/detail.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400504596023" ignored="false" />
+    <file path="/tabGenerator.js" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400507630911" ignored="false" />
+    <file path="/test.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400508514298" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,43 +38,61 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html-Seiten/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="39" selection-start="2083" selection-end="2083" vertical-scroll-proportion="-27.461538">
+            <state line="29" column="24" selection-start="1187" selection-end="1187" vertical-scroll-proportion="-15.038462">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messe.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="messe.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html-Seiten/css/messe.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="18" selection-start="414" selection-end="414" vertical-scroll-proportion="0.6642547">
+            <state line="3" column="29" selection-start="81" selection-end="88" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conHit.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html-Seiten/conHit.html">
+      <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html-Seiten/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="23" selection-start="1683" selection-end="1683" vertical-scroll-proportion="-20.346153">
+            <state line="11" column="14" selection-start="348" selection-end="348" vertical-scroll-proportion="-7.1923075">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webtechcon.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html-Seiten/webtechcon.html">
+      <file leaf-file-name="tabGenerator.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html-Seiten/tabGenerator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="56" selection-start="1709" selection-end="1709" vertical-scroll-proportion="-22.307692">
+            <state line="16" column="32" selection-start="218" selection-end="218" vertical-scroll-proportion="0.24602026">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ceBit.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html-Seiten/ceBit.html">
+      <file leaf-file-name="testtabelle.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html-Seiten/testtabelle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="36" selection-start="228" selection-end="228" vertical-scroll-proportion="-2.0384614">
+            <state line="8" column="56" selection-start="423" selection-end="423" vertical-scroll-proportion="-5.230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datesForContributors.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html-Seiten/datesForContributors.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="12" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datesForContributors.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html-Seiten/datesForContributors.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -89,7 +110,7 @@
       <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html-Seiten/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="2" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.3076923">
               <folding />
             </state>
           </provider>
@@ -114,13 +135,17 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/html-Seiten/Cebit.html" />
-        <option value="$PROJECT_DIR$/html-Seiten/Conhit.html" />
         <option value="$PROJECT_DIR$/html-Seiten/Webtechcon.html" />
         <option value="$PROJECT_DIR$/html-Seiten/index.html" />
         <option value="$PROJECT_DIR$/html-Seiten/ceBit.html" />
         <option value="$PROJECT_DIR$/html-Seiten/conHit.html" />
         <option value="$PROJECT_DIR$/html-Seiten/webtechcon.html" />
         <option value="$PROJECT_DIR$/html-Seiten/css/messe.css" />
+        <option value="$PROJECT_DIR$/html-Seiten/Conhit.html" />
+        <option value="$PROJECT_DIR$/html-Seiten/testtabelle.html" />
+        <option value="$PROJECT_DIR$/html-Seiten/detail.html" />
+        <option value="$PROJECT_DIR$/html-Seiten/tabGenerator.js" />
+        <option value="$PROJECT_DIR$/html-Seiten/test.html" />
       </list>
     </option>
   </component>
@@ -156,6 +181,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,16 +224,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -224,26 +250,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25225225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -307,37 +333,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html-Seiten/test.html">
+    <entry file="file://$PROJECT_DIR$/html-Seiten/Webtechcon.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="39" column="56" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html-Seiten/index.html">
+    <entry file="file://$PROJECT_DIR$/html-Seiten/Cebit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="39" selection-start="2083" selection-end="2083" vertical-scroll-proportion="-27.461538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html-Seiten/ceBit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="36" selection-start="228" selection-end="228" vertical-scroll-proportion="-2.0384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html-Seiten/conHit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="23" selection-start="1683" selection-end="1683" vertical-scroll-proportion="-20.346153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html-Seiten/webtechcon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="56" selection-start="1709" selection-end="1709" vertical-scroll-proportion="-22.307692">
+        <state line="6" column="36" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -349,9 +354,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/Webtechcon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="56" selection-start="1709" selection-end="1709" vertical-scroll-proportion="-11.692307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/Conhit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="16" selection-start="1606" selection-end="1609" vertical-scroll-proportion="-15.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/Cebit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="36" selection-start="228" selection-end="228" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="24" selection-start="1187" selection-end="1187" vertical-scroll-proportion="-15.038462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html-Seiten/css/messe.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="18" selection-start="414" selection-end="414" vertical-scroll-proportion="0.6642547">
+        <state line="3" column="29" selection-start="81" selection-end="88" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/css/waw.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="348" selection-end="348" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/datesForContributors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/datesForContributors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="12" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/testtabelle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="56" selection-start="423" selection-end="423" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/tabGenerator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="32" selection-start="218" selection-end="218" vertical-scroll-proportion="0.24602026">
           <folding />
         </state>
       </provider>
