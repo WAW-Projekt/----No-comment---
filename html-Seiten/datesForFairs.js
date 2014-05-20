@@ -1,13 +1,16 @@
 {
-var CeBit = {
+
+    var kosten= { "kosten":[
+        {
 name:"CeBit",
 kosten:"15"
-}
-var ConHit = {
+},
+ {
 name:"ConHit",
 kosten:"50"
-}
-var WebTechCon = {
+},
+ {
 name:"WebTechCon",
 kosten:"300"
-}}
+}]}
+}

@@ -4,7 +4,7 @@
     <list default="true" id="c529ac64-1f27-4b8a-889b-9abc94e731bf" name="Default" comment="" />
     <ignored path="----No-comment---.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400496520499" ignored="false" />
+    <file path="/Dummy.txt" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400590174681" ignored="false" />
     <file path="/Webtechcon.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399477607410" ignored="false" />
     <file path="/Cebit.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399477565498" ignored="false" />
     <file path="/Conhit.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400499030447" ignored="false" />
@@ -13,10 +13,11 @@
     <file path="/ceBit.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399479328962" ignored="false" />
     <file path="/webtechcon.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399479783896" ignored="false" />
     <file path="/messe.css" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399479719666" ignored="false" />
-    <file path="/detail.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400514645430" ignored="false" />
-    <file path="/tabGenerator.js" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400514769516" ignored="false" />
+    <file path="/detail.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400599353927" ignored="false" />
+    <file path="/tabGenerator.js" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400599329138" ignored="false" />
     <file path="/test.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400508728976" ignored="false" />
-    <file path="/datesForFairs.js" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400513703460" ignored="false" />
+    <file path="/datesForFairs.js" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400597583010" ignored="false" />
+    <file path="/datesForContributors.js" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400597554055" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +40,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html-Seiten/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="63" selection-start="196" selection-end="255" vertical-scroll-proportion="-3.9230769">
+            <state line="10" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="-3.2692308">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="detail.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html-Seiten/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="54" selection-start="247" selection-end="247" vertical-scroll-proportion="-3.9230769">
+            <state line="5" column="72" selection-start="192" selection-end="192" vertical-scroll-proportion="0.1303681">
               <folding />
             </state>
           </provider>
@@ -57,17 +58,15 @@
       <file leaf-file-name="tabGenerator.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html-Seiten/tabGenerator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="27" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datesForFairs.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html-Seiten/datesForFairs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
+            <state line="164" column="69" selection-start="5409" selection-end="5409" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!block;n#createcebitTab#0" expanded="false" />
+                <element signature="n#!!block;n#createconhitTab#0" expanded="false" />
+                <element signature="n#!!block;n#createwebtechconTab#0" expanded="false" />
+                <element signature="n#!!block;n#clear#0" expanded="false" />
+                <element signature="n#!!block;n#clearRow#0" expanded="false" />
+                <element signature="n#!!block;n#extendTab#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,16 +74,16 @@
       <file leaf-file-name="datesForContributors.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html-Seiten/datesForContributors.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="4" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+            <state line="39" column="24" selection-start="670" selection-end="686" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="datesForFairs.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="datesForFairs.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html-Seiten/datesForFairs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
+            <state line="15" column="1" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,11 +118,13 @@
         <option value="$PROJECT_DIR$/html-Seiten/testtabelle.html" />
         <option value="$PROJECT_DIR$/html-Seiten/test.html" />
         <option value="$PROJECT_DIR$/html-Seiten/datesForFairs.js" />
-        <option value="$PROJECT_DIR$/html-Seiten/detail.html" />
+        <option value="$PROJECT_DIR$/html-Seiten/datesForContributors.js" />
         <option value="$PROJECT_DIR$/html-Seiten/tabGenerator.js" />
+        <option value="$PROJECT_DIR$/html-Seiten/detail.html" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -156,7 +157,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,10 +199,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
@@ -232,7 +234,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25225225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25546977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -305,14 +307,14 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/html-Seiten/css/waw.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html-Seiten/test.html">
@@ -345,16 +347,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html-Seiten/css/messe.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="81" selection-end="88" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="29" selection-start="81" selection-end="88" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html-Seiten/css/waw.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html-Seiten/test.html">
@@ -385,37 +383,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html-Seiten/index.html">
+    <entry file="file://$PROJECT_DIR$/html-Seiten/datesForFairs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="63" selection-start="196" selection-end="255" vertical-scroll-proportion="-3.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html-Seiten/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="54" selection-start="247" selection-end="247" vertical-scroll-proportion="-3.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html-Seiten/tabGenerator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
+        <state line="15" column="1" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html-Seiten/datesForContributors.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+        <state line="39" column="24" selection-start="670" selection-end="686" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html-Seiten/datesForFairs.js">
+    <entry file="file://$PROJECT_DIR$/html-Seiten/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/tabGenerator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="69" selection-start="5409" selection-end="5409" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!block;n#createcebitTab#0" expanded="false" />
+            <element signature="n#!!block;n#createconhitTab#0" expanded="false" />
+            <element signature="n#!!block;n#createwebtechconTab#0" expanded="false" />
+            <element signature="n#!!block;n#clear#0" expanded="false" />
+            <element signature="n#!!block;n#clearRow#0" expanded="false" />
+            <element signature="n#!!block;n#extendTab#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="72" selection-start="192" selection-end="192" vertical-scroll-proportion="0.1303681">
           <folding />
         </state>
       </provider>
