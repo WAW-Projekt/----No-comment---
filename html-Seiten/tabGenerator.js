@@ -31,21 +31,29 @@ function createcebitTab(){
        // for(var j=0;j<5;j++){
 
             var myCell = document.createElement('td');
+            myCell.setAttribute('width','20%');
+            myCell.setAttribute('height','20');
             currenttext = document.createTextNode(ceBitTeilnehmer.CB[i].name);
             myCell.appendChild(currenttext);
             myRow.appendChild(myCell);
 
         var myCell = document.createElement('td');
+        myCell.setAttribute('width','20%');
+            myCell.setAttribute('height','20');
         currenttext = document.createTextNode(ceBitTeilnehmer.CB[i].vorname);
         myCell.appendChild(currenttext);
         myRow.appendChild(myCell);
 
         var myCell = document.createElement('td');
+        myCell.setAttribute('width','20%');
+            myCell.setAttribute('height','20');
         currenttext = document.createTextNode(ceBitTeilnehmer.CB[i].studiengang);
         myCell.appendChild(currenttext);
         myRow.appendChild(myCell);
 
         var myCell = document.createElement('td');
+        myCell.setAttribute('width','20%');
+            myCell.setAttribute('height','20');
         currenttext = document.createTextNode(ceBitTeilnehmer.CB[i].Email);
         myCell.appendChild(currenttext);
         myRow.appendChild(myCell);
