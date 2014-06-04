@@ -32,33 +32,27 @@ function ueberpruefung(){
         gueltig=false;
         alert("Einige Eingaben sind fehlerhaft. Bitte überprüfen Sie ihre Eingaben");
 
-        $("#name").css('border', '1');
-        $("#name").css('border-style', 'solid');
-        $("#name").css('border-color', 'red');
+        $("#name").addClass('red');
+
     }
 
     if(!($("#vorname").val().match("([a-z]|[A-Z])+"))){
         gueltig=false;
-        alert( "Einige Eingaben sind fehlerhaft. Bitte überprüfen Sie ihre Eingaben");
-        $("#vorname").css('border', '1');
-        $("#vorname").css('border-style', 'solid');
-        $("#vorname").css('border-color', 'red');
+        alert("Einige Eingaben sind fehlerhaft. Bitte überprüfen Sie ihre Eingaben");
+        $("#vorname").addClass('red');
+
     }
 
     if(!($("#matrikelnr").val().match("[0-9]+"))){
         gueltig=false;
         alert( "Einige Eingaben sind fehlerhaft. Bitte überprüfen Sie ihre Eingaben");
-        $("#matrikelnr").css('border', '1');
-        $("#matrikelnr").css('border-style', 'solid');
-        $("#matrikelnr").css('border-color', 'red');
+        $("#matrikelnr").addClass('red');
     }
 
     if(!($("#handy").val().match("[0-9]+"))&& ($("#handy").val().charAt(0)!=0)){
         gueltig=false;
         alert( "Einige Eingaben sind fehlerhaft. Bitte überprüfen Sie ihre Eingaben");
-        $("#handy").css('border', '1');
-        $("#handy").css('border-style', 'solid');
-        $("#handy").css('border-color', 'red');
+        $("#handy").addClass('red');
     }
 
     var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
@@ -66,9 +60,7 @@ function ueberpruefung(){
     if(!(filter.test($("#email").val()))){
         gueltig=false;
         alert( "Einige Eingaben sind fehlerhaft. Bitte überprüfen Sie ihre Eingaben");
-        $("#email").css('border', '1');
-        $("#email").css('border-style', 'solid');
-        $("#email").css('border-color', 'red');
+        $("#email").addClass('red');
     }
 
    /* if(!gueltig){

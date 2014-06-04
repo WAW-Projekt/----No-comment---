@@ -4,11 +4,11 @@
     <list default="true" id="c529ac64-1f27-4b8a-889b-9abc94e731bf" name="Default" comment="" />
     <ignored path="----No-comment---.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1401873796600" ignored="false" />
+    <file path="/Dummy.txt" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1401879920159" ignored="false" />
     <file path="/Webtechcon.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399477607410" ignored="false" />
     <file path="/Cebit.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399477565498" ignored="false" />
     <file path="/Conhit.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400499030447" ignored="false" />
-    <file path="/index.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1401878959841" ignored="false" />
+    <file path="/index.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1401883225353" ignored="false" />
     <file path="/conHit.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399479413865" ignored="false" />
     <file path="/ceBit.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399479328962" ignored="false" />
     <file path="/webtechcon.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1399479783896" ignored="false" />
@@ -18,7 +18,8 @@
     <file path="/test.html" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400508728976" ignored="false" />
     <file path="/datesForFairs.js" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400597583010" ignored="false" />
     <file path="/datesForContributors.js" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1400597554055" ignored="false" />
-    <file path="/eingabeChecker.js" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1401879261238" ignored="false" />
+    <file path="/eingabeChecker.js" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1401883273303" ignored="false" />
+    <file path="/formular.css" changelist="c529ac64-1f27-4b8a-889b-9abc94e731bf" time="1401883337656" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,18 +42,25 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html-Seiten/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="7" selection-start="450" selection-end="450" vertical-scroll-proportion="-5.230769">
-              <folding>
-                <element signature="n#style#0;n#input#0;n#td#0;n#tr#7;n#table#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="11" column="3" selection-start="506" selection-end="506" vertical-scroll-proportion="-3.2692308">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eingabeChecker.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="red.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html-Seiten/css/red.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="1" selection-start="33" selection-end="33" vertical-scroll-proportion="0.04920405">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eingabeChecker.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html-Seiten/eingabeChecker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="19" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.3357453">
+            <state line="62" column="17" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,7 +78,7 @@
       <file leaf-file-name="tabGenerator.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html-Seiten/tabGenerator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="201" column="0" selection-start="6111" selection-end="6111" vertical-scroll-proportion="0.0">
+            <state line="201" column="0" selection-start="6303" selection-end="6303" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,7 +96,7 @@
       <file leaf-file-name="datesForFairs.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html-Seiten/datesForFairs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="1" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
+            <state line="15" column="1" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/html-Seiten/Cebit.html" />
         <option value="$PROJECT_DIR$/html-Seiten/Webtechcon.html" />
         <option value="$PROJECT_DIR$/html-Seiten/ceBit.html" />
         <option value="$PROJECT_DIR$/html-Seiten/conHit.html" />
@@ -125,8 +132,10 @@
         <option value="$PROJECT_DIR$/html-Seiten/datesForContributors.js" />
         <option value="$PROJECT_DIR$/html-Seiten/tabGenerator.js" />
         <option value="$PROJECT_DIR$/html-Seiten/detail.html" />
+        <option value="$PROJECT_DIR$/html-Seiten/css/formular.css" />
         <option value="$PROJECT_DIR$/html-Seiten/index.html" />
         <option value="$PROJECT_DIR$/html-Seiten/eingabeChecker.js" />
+        <option value="$PROJECT_DIR$/html-Seiten/css/red.css" />
       </list>
     </option>
   </component>
@@ -247,7 +256,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27348778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2773488" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -328,11 +337,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html-Seiten/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html-Seiten/Webtechcon.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="56" selection-start="1709" selection-end="1709" vertical-scroll-proportion="-11.692307" />
@@ -346,16 +350,6 @@
     <entry file="file://$PROJECT_DIR$/html-Seiten/Cebit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="36" selection-start="228" selection-end="228" vertical-scroll-proportion="-0.65384614" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html-Seiten/css/messe.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="81" selection-end="88" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html-Seiten/css/waw.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html-Seiten/test.html">
@@ -387,7 +381,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html-Seiten/tabGenerator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="0" selection-start="6111" selection-end="6111" vertical-scroll-proportion="0.0">
+        <state line="201" column="0" selection-start="6303" selection-end="6303" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -401,23 +395,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html-Seiten/datesForFairs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
+        <state line="15" column="1" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/css/waw.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/css/messe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html-Seiten/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="450" selection-end="450" vertical-scroll-proportion="-5.230769">
-          <folding>
-            <element signature="n#style#0;n#input#0;n#td#0;n#tr#7;n#table#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="11" column="3" selection-start="506" selection-end="506" vertical-scroll-proportion="-3.2692308">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html-Seiten/eingabeChecker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="19" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.3357453">
+        <state line="62" column="17" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-Seiten/css/red.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="1" selection-start="33" selection-end="33" vertical-scroll-proportion="0.04920405">
           <folding />
         </state>
       </provider>
