@@ -16,12 +16,48 @@ head2.appendChild(script2);
 // erstellung einer Tabelle
 function createcebitTab(){
 
+    var conhi = document.getElementById('conhit');
+    conhi.removeAttribute('class');
+    var webtechco = document.getElementById('webtechcon');
+    webtechco.removeAttribute('class');
+
     clear();
+
+    var th = document.getElementById("cebit");
+    th.setAttribute('class','selected');
 
     var myTabBody = document.createElement('tbody');
 
     // weißt den Erstellentabelleninhalt zu der Tabelle hinzu
     document.getElementById("table").appendChild(myTabBody);
+
+
+    var row1 = document.createElement('tr');
+    row1.setAttribute('class','blue');
+
+
+    var myCell1 = document.createElement('td');
+    text1 = document.createTextNode("Nachname");
+    myCell1.appendChild(text1);
+    row1.appendChild(myCell1);
+
+    var myCell2 = document.createElement('td');
+    text2 = document.createTextNode("Name");
+    myCell2.appendChild(text2);
+    row1.appendChild(myCell2);
+
+    var myCell3 = document.createElement('td');
+    text3 = document.createTextNode("Studiengang");
+    myCell3.appendChild(text3);
+    row1.appendChild(myCell3);
+
+    var myCell4 = document.createElement('td');
+    text4 = document.createTextNode("E-mail");
+    myCell4.appendChild(text4);
+    row1.appendChild(myCell4);
+
+    myTabBody.appendChild(row1);
+
 
     // Diese Schleife erstellt jeweils eine Tabellenreihe
     for(var i=0;i<ceBitTeilnehmer.CB.length;i++){
@@ -66,12 +102,47 @@ function createcebitTab(){
 
 function createconhitTab(){
 
+
+    var webtechco = document.getElementById('webtechcon');
+    webtechco.removeAttribute('class');
+    var cebi = document.getElementById('cebit');
+    cebi.removeAttribute('class');
+
+
     clear();
+    var th = document.getElementById("conhit");
+    th.setAttribute('class','selected');
 
     var myTabBody = document.createElement('tbody');
 
     // weißt den Erstellentabelleninhalt zu der Tabelle hinzu
     document.getElementById("table").appendChild(myTabBody);
+
+    var row1 = document.createElement('tr');
+    row1.setAttribute('class','blue');
+
+
+    var myCell1 = document.createElement('td');
+    text1 = document.createTextNode("Nachname");
+    myCell1.appendChild(text1);
+    row1.appendChild(myCell1);
+
+    var myCell2 = document.createElement('td');
+    text2 = document.createTextNode("Name");
+    myCell2.appendChild(text2);
+    row1.appendChild(myCell2);
+
+    var myCell3 = document.createElement('td');
+    text3 = document.createTextNode("Studiengang");
+    myCell3.appendChild(text3);
+    row1.appendChild(myCell3);
+
+    var myCell4 = document.createElement('td');
+    text4 = document.createTextNode("E-mail");
+    myCell4.appendChild(text4);
+    row1.appendChild(myCell4);
+
+    myTabBody.appendChild(row1);
 
     // Diese Schleife erstellt jeweils eine Tabellenreihe
     for(var i=0;i<conHitTeilnehmer.CH.length;i++){
@@ -108,12 +179,45 @@ function createconhitTab(){
 
 function createwebtechconTab(){
 
+    var cebi = document.getElementById('cebit');
+    cebi.removeAttribute('class');
+    var conhi = document.getElementById('conhit');
+    conhi.removeAttribute('class');
+
     clear();
+    var th = document.getElementById("webtechcon");
+    th.setAttribute('class','selected');
 
     var myTabBody = document.createElement('tbody');
 
     // weißt den Erstellentabelleninhalt zu der Tabelle hinzu
     document.getElementById("table").appendChild(myTabBody);
+
+    var row1 = document.createElement('tr');
+    row1.setAttribute('class','blue');
+
+
+    var myCell1 = document.createElement('td');
+    text1 = document.createTextNode("Nachname");
+    myCell1.appendChild(text1);
+    row1.appendChild(myCell1);
+
+    var myCell2 = document.createElement('td');
+    text2 = document.createTextNode("Name");
+    myCell2.appendChild(text2);
+    row1.appendChild(myCell2);
+
+    var myCell3 = document.createElement('td');
+    text3 = document.createTextNode("Studiengang");
+    myCell3.appendChild(text3);
+    row1.appendChild(myCell3);
+
+    var myCell4 = document.createElement('td');
+    text4 = document.createTextNode("E-mail");
+    myCell4.appendChild(text4);
+    row1.appendChild(myCell4);
+
+    myTabBody.appendChild(row1);
 
     // Diese Schleife erstellt jeweils eine Tabellenreihe
     for(var i=0;i<webTechConTeilnehmer.WTC.length;i++){
@@ -151,12 +255,32 @@ function createwebtechconTab(){
 // erstellung einer Tabelle ohne die Untertabelle mit Messe zu löschen
 function createkostenTab(){
 
+    var th2 = document.getElementById("teilnehmer");
+    th2.removeAttribute('class');
+    var th = document.getElementById("kosten");
+    th.setAttribute('class','selected');
+
     clear();
     clearRow();
     var myTabBody = document.createElement('tbody');
 
     // weißt den Erstellentabelleninhalt zu der Tabelle hinzu
     document.getElementById("table").appendChild(myTabBody);
+
+    var row2 = document.createElement('tr');
+    row2.setAttribute('class','blue');
+
+    var myCell5 = document.createElement('td');
+    text5 = document.createTextNode("Messe");
+    myCell5.appendChild(text5);
+    row2.appendChild(myCell5);
+
+    var myCell6 = document.createElement('td');
+    text6 = document.createTextNode("Selbstkosten");
+    myCell6.appendChild(text6);
+    row2.appendChild(myCell6);
+
+    myTabBody.appendChild(row2);
 
     // Diese Schleife erstellt jeweils eine Tabellenreihe
     for(var i=0;i<3;i++){
@@ -181,6 +305,10 @@ function createkostenTab(){
 }
 // löscht eine ganze Tabelle
 function clear(){
+
+
+
+
     tbl=document.getElementById('table');
 
     while(tbl.rows.length>0)
@@ -202,6 +330,14 @@ function clearRow(){
 // erweitert die Überschrifttabelle um die Messen
 function extendTab(){
 
+
+    var th2 = document.getElementById("kosten");
+    th2.removeAttribute('class');
+    var th = document.getElementById("teilnehmer");
+    th.setAttribute('class','selected');
+
+
+
     clear();
     clearRow();
    // Die Erweiterungsreihe
@@ -212,9 +348,8 @@ function extendTab(){
     text1 = document.createTextNode("CeBit");
     messe1.setAttribute('onclick','javascript:createcebitTab()' );
 
-    // farbliche Markierung wenn man mit der Maus auf der Tabellenzelle ist
-    messe1.setAttribute('onmouseover',"style.backgroundColor='red'");
-    messe1.setAttribute('onmouseout',"style.backgroundColor='#99D9EA'");
+    messe1.setAttribute('class','extrareihe');
+    messe1.setAttribute('id',"cebit");
 
     //fügt den Text in die Tabellen zelle hinzu
     messe1.appendChild(text1);
@@ -224,8 +359,8 @@ function extendTab(){
     messe2.setAttribute('onclick','javascript:createconhitTab()' );
 
     // farbliche Markierung wenn man mit der Maus auf der Tabellenzelle ist
-    messe2.setAttribute('onmouseover',"style.backgroundColor='red'");
-    messe2.setAttribute('onmouseout',"style.backgroundColor='#99D9EA'");
+    messe2.setAttribute('id','conhit' );
+    messe2.setAttribute('class','extrareihe');
 
     //fügt den Text in die Tabellen zelle hinzu
     messe2.appendChild(text2);
@@ -233,10 +368,8 @@ function extendTab(){
     var messe3 = document.createElement('td');
     text3 = document.createTextNode("WebTechcon");
     messe3.setAttribute('onclick','javascript:createwebtechconTab()' );
-
-    // farbliche Markierung wenn man mit der Maus auf der Tabellenzelle ist
-    messe3.setAttribute('onmouseover',"style.backgroundColor='red'");
-    messe3.setAttribute('onmouseout',"style.backgroundColor='#99D9EA'");
+    messe3.setAttribute('class','extrareihe');
+    messe3.setAttribute('id',"webtechcon");
 
     //fügt den Text in die Tabellen zelle hinzu
     messe3.appendChild(text3);

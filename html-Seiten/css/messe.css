@@ -42,3 +42,18 @@ table{
     height: 80px;
 }
 
+
+.selected{
+
+    background-color: darkblue;
+    color: white;
+    ;
+}
+
+.extrareihe{
+    width:220px;
+}
+
+.blue{
+    color:blue;
+}

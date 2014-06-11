@@ -38,3 +38,8 @@ table{
             float: right;
             text-align: center   
 }
+
+.red{
+    border:2px solid red;
+}
+
