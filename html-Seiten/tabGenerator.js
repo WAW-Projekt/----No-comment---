@@ -24,7 +24,7 @@ function createcebitTab(){
     clear();
 
     var th = document.getElementById("cebit");
-    th.setAttribute('class','selected');
+    th.setAttribute('class','secondselected');
 
     var myTabBody = document.createElement('tbody');
 
@@ -111,7 +111,7 @@ function createconhitTab(){
 
     clear();
     var th = document.getElementById("conhit");
-    th.setAttribute('class','selected');
+    th.setAttribute('class','secondselected');
 
     var myTabBody = document.createElement('tbody');
 
@@ -186,7 +186,7 @@ function createwebtechconTab(){
 
     clear();
     var th = document.getElementById("webtechcon");
-    th.setAttribute('class','selected');
+    th.setAttribute('class','secondselected');
 
     var myTabBody = document.createElement('tbody');
 

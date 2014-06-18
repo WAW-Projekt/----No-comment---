@@ -26,44 +26,71 @@ function ueberpruefung(){
 
 
     var gueltig = true;
+    $("#name").removeClass('red');
+    $("#vorname").removeClass('red');
+    $("#matrikelnr").removeClass('red');
+    $("#email").removeClass('red');
+    $("#handy").removeClass('red');
 
 
-    if(!($("#name").val().match("([a-z]|[A-Z])+"))){
-        gueltig=false;
-        $("#name").addClass('red');
+   /* if($("#handy").val().charAt(0)!="0"&&!($("#handy").val().match("[0-9]")) ){
 
-    }
 
-    if(!($("#vorname").val().match("([a-z]|[A-Z])+"))){
-        gueltig=false;
-        $("#vorname").addClass('red');
-
-    }
-
-    if(!($("#matrikelnr").val().match("[0-9]+"))){
-        gueltig=false;
-        $("#matrikelnr").addClass('red');
-    }
-
-    if(!($("#handy").val().match("[0-9]+"))&& ($("#handy").val().charAt(0)!=0)){
+        $("#handy").focus();
         gueltig=false;
         $("#handy").addClass('red');
+
+    }*/
+
+    var strReg = /^0+([0-9]{1,100})$/;
+
+    if(!(strReg.test($("#handy").val()))){
+        $("#handy").focus();
+        gueltig=false;
+        $("#handy").addClass('red');
+
     }
+
 
     var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
     if(!(filter.test($("#email").val()))){
+        $("#email").focus();
         gueltig=false;
         $("#email").addClass('red');
     }
+
+
+
+    if(!($("#matrikelnr").val().match("[0-9]+"))){
+        gueltig=false;
+        $("#matrikelnr").focus();
+        $("#matrikelnr").addClass('red');
+    }
+
+
+
+
+    if(!($("#vorname").val().match("([a-z]|[A-Z])+"))){
+        gueltig=false;
+        $("#vorname").focus();
+        $("#vorname").addClass('red');
+
+    }
+
+    if(!($("#name").val().match("([a-z]|[A-Z])+"))){
+        gueltig=false;
+        $("#name").focus();
+        $("#name").addClass('red');
+
+    }
+
 
     if(!gueltig){
 
         alert("Einige Eingaben sind fehlerhaft. Bitte überprüfen Sie ihre Eingaben");
 
-        }
-
-
+    }
 
     return gueltig;
 

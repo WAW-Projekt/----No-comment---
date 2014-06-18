@@ -49,11 +49,15 @@ table{
     color: white;
     ;
 }
+.secondselected{
+    background-color: #0000FF;
+    color:white;
+}
 
 .extrareihe{
     width:220px;
 }
 
 .blue{
-    color:blue;
+    color:darkblue;
 }
