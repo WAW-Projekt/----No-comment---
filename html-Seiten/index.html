@@ -16,7 +16,7 @@
     <div id="Webseite">
         <div id="Formular">
             <!---->
-            <form id="submit" action="http://martinakraus.net/hsmannheim.php" onsubmit="return ueberpruefung();"  method="GET">
+            <form id="submit" action="anmeldung.php" onsubmit="return ueberpruefung();"  method="GET">
                 <h1>Anmeldung</h1>
                 <h2>Hier könnt ihr euch für eine Messe eurer Wahl anmelden</h2>
                 <br/>
@@ -56,9 +56,9 @@
                     <tr>
                         <td id="messe"><label  for="Messe">Messe:</label></td>
                         <td width="360px">
-                            <input type="radio" name="messe" value="CebIT" checked="checked"/>CeBIT<br/>
-                            <input type="radio" name="messe" value="ConIT"/>ConHIT<br/>                              
-                            <input type="radio" name="messe" value="WebTech Con"/>WebTech Con<br/>
+                            <input type="radio" id="cebit" name="messe" value="cebit" checked="checked"/>CeBIT<br/>
+                            <input type="radio" id="conhit" name="messe" value="conhit"/>ConHIT<br/>
+                            <input type="radio" id="webtech" name="messe" value="webtech"/>WebTech Con<br/>
                             <br/>
                         </td>
                     </tr>

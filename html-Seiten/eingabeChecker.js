@@ -70,15 +70,15 @@ function ueberpruefung(){
 
 
 
-
-    if(!($("#vorname").val().match("([a-z]|[A-Z])+"))){
+    var filter2 = /^([a-zA-Z]{1,100})$/;
+    if(!(filter2.test($("#vorname").val()))){
         gueltig=false;
         $("#vorname").focus();
         $("#vorname").addClass('red');
 
     }
 
-    if(!($("#name").val().match("([a-z]|[A-Z])+"))){
+    if(!(filter2.test($("#name").val()))){
         gueltig=false;
         $("#name").focus();
         $("#name").addClass('red');
