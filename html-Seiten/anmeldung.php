@@ -5,6 +5,11 @@ $my_webtech = 'webtech.txt';
 
 
 
+$handle = fopen($_GET["messe"].".txt", 'w') or die('Cannot open file: '.$my_cebit);
+$data = $_GET['name'].$_GET['vorname'].' , '.$_GET['matrikelnr'].' , '.$_GET['handy'].' , '.$_GET['studiengang']."\n" ;
+fwrite($handle,$data);
+
+/*
 if(isset( $_GET['messe'])){
    switch($_GET['messe']){
 
@@ -28,3 +33,9 @@ if(isset( $_GET['messe'])){
 
    }
 }
+*/
+
+
+
+header('Location: http://smiley-pc/NoComment1/index.html');
+?>

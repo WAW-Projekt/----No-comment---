@@ -1,6 +1,6 @@
 {
 
-    var ceBitTeilnehmer= { "CB":[
+    var messeJSON= { "CB":[
 
     {
 
@@ -37,7 +37,7 @@
         Messe:"CeBit"
     }]}
 
-    var conHitTeilnehmer= { "CH":[
+    var messeJSON= { "CH":[
         {
 
         name:"Schmuecker",
@@ -56,7 +56,7 @@
         Messe:"ConHit"
     }]}
 
-    var webTechConTeilnehmer= { "WTC":[
+    var messeJSON= { "WTC":[
         {
         name:"Spies",
         vorname:"Marcell",

@@ -1,3 +1,38 @@
+/*<script>src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+function sendRequest() {
+    var xmlhttp=new XMLHttpRequest();
+    xmlhttp.onreadystatechange=function() {
+        //Wenn der Request ankam und ok (200) war dann tue folgendes:
+        if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+            //der gesendete ResponseText vom Server wird in ein JSON File geparst
+            var jsonObject = $.parseJSON(xmlhttp.responseText);
+            //Hier kann nun normal wie bisher bekannt mit dem JSON-Objekt umgegangen werden.
+
+
+        }
+    }
+    //Hier wird angegeben welche HTTP-Methode und an welche PHP-Datei der Request gesendet wird
+    xmlhttp.open("GET","getDetails.php");
+    xmlhttp.send();
+}
+*/
+
+function loadPage(url) {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open("GET", url, false);
+    xmlhttp.send();
+    return xmlhttp.responseText;
+}
+
+
+var messeJSON = JSON.parse(loadPage("/../NoComment1/getDetails.php?dateiname=messe"));
+
+var kostenJSON = JSON.parse(loadPage("/../NoComment1/getDetails.php?dateiname=kosten"));
+
+
+
+/*
 var head= document.getElementsByTagName('head')[0];
 var script= document.createElement('script');
 script.type= 'text/javascript';
@@ -11,7 +46,7 @@ script2.type= 'text/javascript';
 script.src= 'datesForFairs.js';
 head2.appendChild(script2);
 
-
+*/
 
 // erstellung einer Tabelle
 function createcebitTab(){
@@ -60,7 +95,7 @@ function createcebitTab(){
 
 
     // Diese Schleife erstellt jeweils eine Tabellenreihe
-    for(var i=0;i<ceBitTeilnehmer.CB.length;i++){
+    for(var i=0;i<messeJSON.CB.length;i++){
         var myRow = document.createElement('tr');
 
         // Diese Schleife erstellt die Tabellenzellen einer Reihe
@@ -69,28 +104,28 @@ function createcebitTab(){
             var myCell = document.createElement('td');
             myCell.setAttribute('width','20%');
             myCell.setAttribute('height','20');
-            currenttext = document.createTextNode(ceBitTeilnehmer.CB[i].name);
+            currenttext = document.createTextNode(messeJSON.CB[i].name);
             myCell.appendChild(currenttext);
             myRow.appendChild(myCell);
 
         var myCell = document.createElement('td');
         myCell.setAttribute('width','20%');
             myCell.setAttribute('height','20');
-        currenttext = document.createTextNode(ceBitTeilnehmer.CB[i].vorname);
+        currenttext = document.createTextNode(messeJSON.CB[i].vorname);
         myCell.appendChild(currenttext);
         myRow.appendChild(myCell);
 
         var myCell = document.createElement('td');
         myCell.setAttribute('width','20%');
             myCell.setAttribute('height','20');
-        currenttext = document.createTextNode(ceBitTeilnehmer.CB[i].studiengang);
+        currenttext = document.createTextNode(messeJSON.CB[i].studiengang);
         myCell.appendChild(currenttext);
         myRow.appendChild(myCell);
 
         var myCell = document.createElement('td');
         myCell.setAttribute('width','20%');
             myCell.setAttribute('height','20');
-        currenttext = document.createTextNode(ceBitTeilnehmer.CB[i].Email);
+        currenttext = document.createTextNode(messeJSON.CB[i].Email);
         myCell.appendChild(currenttext);
         myRow.appendChild(myCell);
 
@@ -145,29 +180,29 @@ function createconhitTab(){
     myTabBody.appendChild(row1);
 
     // Diese Schleife erstellt jeweils eine Tabellenreihe
-    for(var i=0;i<conHitTeilnehmer.CH.length;i++){
+    for(var i=0;i<messeJSON.CH.length;i++){
         var myRow = document.createElement('tr');
 
         // Diese Schleife erstellt die Tabellenzellen einer Reihe
         // for(var j=0;j<5;j++){
 
         var myCell = document.createElement('td');
-        currenttext = document.createTextNode(conHitTeilnehmer.CH[i].name);
+        currenttext = document.createTextNode(messeJSON.CH[i].name);
         myCell.appendChild(currenttext);
         myRow.appendChild(myCell);
 
         var myCell = document.createElement('td');
-        currenttext = document.createTextNode(conHitTeilnehmer.CH[i].vorname);
+        currenttext = document.createTextNode(messeJSON.CH[i].vorname);
         myCell.appendChild(currenttext);
         myRow.appendChild(myCell);
 
         var myCell = document.createElement('td');
-        currenttext = document.createTextNode(conHitTeilnehmer.CH[i].studiengang);
+        currenttext = document.createTextNode(messeJSON.CH[i].studiengang);
         myCell.appendChild(currenttext);
         myRow.appendChild(myCell);
 
         var myCell = document.createElement('td');
-        currenttext = document.createTextNode(conHitTeilnehmer.CH[i].Email);
+        currenttext = document.createTextNode(messeJSON.CH[i].Email);
         myCell.appendChild(currenttext);
         myRow.appendChild(myCell);
 
@@ -220,29 +255,29 @@ function createwebtechconTab(){
     myTabBody.appendChild(row1);
 
     // Diese Schleife erstellt jeweils eine Tabellenreihe
-    for(var i=0;i<webTechConTeilnehmer.WTC.length;i++){
+    for(var i=0;i<messeJSON.WTC.length;i++){
         var myRow = document.createElement('tr');
 
         // Diese Schleife erstellt die Tabellenzellen einer Reihe
         // for(var j=0;j<5;j++){
 
         var myCell = document.createElement('td');
-        currenttext = document.createTextNode(webTechConTeilnehmer.WTC[i].name);
+        currenttext = document.createTextNode(messeJSON.WTC[i].name);
         myCell.appendChild(currenttext);
         myRow.appendChild(myCell);
 
         var myCell = document.createElement('td');
-        currenttext = document.createTextNode(webTechConTeilnehmer.WTC[i].vorname);
+        currenttext = document.createTextNode(messeJSON.WTC[i].vorname);
         myCell.appendChild(currenttext);
         myRow.appendChild(myCell);
 
         var myCell = document.createElement('td');
-        currenttext = document.createTextNode(webTechConTeilnehmer.WTC[i].studiengang);
+        currenttext = document.createTextNode(messeJSON.WTC[i].studiengang);
         myCell.appendChild(currenttext);
         myRow.appendChild(myCell);
 
         var myCell = document.createElement('td');
-        currenttext = document.createTextNode(webTechConTeilnehmer.WTC[i].Email);
+        currenttext = document.createTextNode(messeJSON.WTC[i].Email);
         myCell.appendChild(currenttext);
         myRow.appendChild(myCell);
 
@@ -289,12 +324,12 @@ function createkostenTab(){
         // Diese Schleife erstellt die Tabellenzellen einer Reihe
 
             var myCell = document.createElement('td');
-            currenttext = document.createTextNode(kosten.kosten[i].name);
+            currenttext = document.createTextNode(kostenJSON.kosten[i].name);
             myCell.appendChild(currenttext);
             myRow.appendChild(myCell);
 
         var myCell = document.createElement('td');
-        currenttext = document.createTextNode(kosten.kosten[i].kosten);
+        currenttext = document.createTextNode(kostenJSON.kosten[i].kosten);
         myCell.appendChild(currenttext);
         myRow.appendChild(myCell);
 
